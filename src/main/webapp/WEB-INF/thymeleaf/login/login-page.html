@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Spring Mvc Log4j Example</title>
+<link rel="icon" th:href="@{/resources/images/sudarshan-logo.png}" />
+</head>
+<body>
+	<!--  added for loading symbol display in screen  -->
+	<div id="fullpage">
+		<div class="header">
+			<div th:substituteBy="login/login-header" th:remove="tag"></div>
+		</div>
+
+		<div class="container">
+			<div id="star-msg">
+				<marquee>
+					<span>Log file Is created under the path : </span><span
+						th:text="${msg}"></span>
+				</marquee>
+			</div>
+		</div>
+
+		<div id="star-footer">
+			<div class="col-lg-12 col-sm-12 col-xs-12 copyrights">
+				<div th:substituteBy="login/login-footer" th:remove="tag"></div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+</body>
+</html>
