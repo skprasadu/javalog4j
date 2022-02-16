@@ -1,4 +1,4 @@
-package com.star.sud.web.controller;
+package com.hcl.javalog4j.web.controller;
 
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.LogManager;

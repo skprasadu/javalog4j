@@ -1,18 +1,17 @@
-package com.star.sud.web.controller;
+package com.hcl.javalog4j.web.controller;
 
-import org.apache.log4j.BasicConfigurator;
-import org.apache.log4j.Logger;
+import org.apache.log4j.*;
 
-public class LogClass {
+public class LogClass1 {
    private static org.apache.log4j.Logger log = Logger.getLogger(LogClass.class);
    
    public static void main(String[] args) {
-	  BasicConfigurator.configure();
-	  int a=5;
+	   BasicConfigurator.configure();
+	   log.setLevel(Level.WARN);
+
       log.trace("Trace Message!");
       log.debug("Debug Message!");
       log.info("Info Message!");
-      log.info("Variable a which is of type int !" +a);
       log.warn("Warn Message!");
       log.error("Error Message!");
       log.fatal("Fatal Message!");

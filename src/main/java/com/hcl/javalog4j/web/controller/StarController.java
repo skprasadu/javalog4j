@@ -1,4 +1,4 @@
-package com.star.sud.web.controller;
+package com.hcl.javalog4j.web.controller;
 
 import java.io.IOException;
 import java.io.InputStream;
