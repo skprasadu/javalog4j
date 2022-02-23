@@ -24,7 +24,7 @@ public class StarController {
 
 		// String loc = "D://log-file/";
 
-		String loc = "D://log-file3/admin4.log";
+		String loc = "/Users/krishnap.murthy/my-applications/java/sumitk/javalog4j/log-file3/admin4.log";
 
 		// updateLog4jConfiguration(loc + "admin" + ".log");
 		updateLog4jConfiguration(loc);
